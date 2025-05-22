@@ -17,7 +17,7 @@ public class ConsoleUI {
         System.out.println("  F           Exit program");
         System.out.print("Command: ");
         commands = userInput.nextLine().toUpperCase().charAt(0);
-        
+
         switch (commands) {
             case 'P':
                 System.out.println("Add product to stock: ");
